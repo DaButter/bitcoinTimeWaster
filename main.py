@@ -7,5 +7,5 @@ full_csv_file = './data/BTC-USD_full_copy.csv'
 if __name__ == "__main__":
     # full_btc_trendline(full_csv_file)
     df = calc_statistic_params(full_csv_file)
-    model = train_model(df)
+    train_model(df)
     print("Well done! :)")
